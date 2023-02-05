@@ -1,13 +1,12 @@
 const hamburgerCheckbox = document.getElementById('hamburger-checkbox')
-const contactForm = document.getElementById('contact-form')
+const mainContent = document.getElementById('main-content')
+
 hamburgerCheckbox.addEventListener('change', () => {
     if (hamburgerCheckbox.checked) {
         document.body.style.overflowY = 'hidden'
+        mainContent.style.display = 'none'
         return
     }
     document.body.style.overflowY = 'auto'
-})
-
-contactForm.addEventListener('submit', (e) => {
-    console.log(e)
+    mainContent.style.display = 'block'
 })

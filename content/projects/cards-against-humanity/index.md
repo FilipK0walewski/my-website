@@ -1,7 +1,7 @@
 ---
 title: Cards Ahainst Humanity Online dd
 date: 2023-02-01T23:40:05+01:00
-image: vim.jpeg
+image: images/vim.jpeg
 site_url: https://cards.pierdolnik.online
 code_url: https://gitlab.com/mister_right/cah-online
 draft: false
