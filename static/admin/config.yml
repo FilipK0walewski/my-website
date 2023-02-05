@@ -8,13 +8,16 @@ collections:
     label: "Projects" # Used in the UI
     folder: "content/projects" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
-    # media_folder: ""
-    # public_folder: ""
-    create: true # Allow users to create new documents in this collection
+    media_folder: "assets/images"
+    public_folder: "images"
+    create: true
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "img", widget: "image" }
+      - { label: "Type", name: "type", widget: "hidden", default: "projects"}
+      - { label: "Site url", name: "site_url", widget: "string" }
+      - { label: "Code url", name: "code_url", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
