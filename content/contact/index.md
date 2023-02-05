@@ -1,5 +1,5 @@
 ---
-title: "Contact"
-type: "contact"
+title: Contact
+type: contact
 ---
-Ask me about something.
+Ask me about something here.
