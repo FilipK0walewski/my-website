@@ -18,7 +18,9 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "projects"}
       - { label: "Site url", name: "site_url", widget: "string" }
       - { label: "Code url", name: "code_url", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false}
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "pages"
     label: "Pages"
     files:
