@@ -1,11 +1,11 @@
 ---
 title: Cards Ahainst Humanity Online dd
 date: 2023-02-01T23:40:05+01:00
-img: marcin.jpeg
-type: projects
+image: vim.jpeg
 site_url: https://cards.pierdolnik.online
 code_url: https://gitlab.com/mister_right/cah-online
 draft: false
+type: projects
 ---
 Cards Against Humanity is a fill-in-the-blank party game that turns your awkward personality and lackluster social skills into hours of fun! Wow.
 

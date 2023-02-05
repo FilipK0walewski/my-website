@@ -3,7 +3,7 @@ title: "Redream.pl"
 date: 2023-02-02T00:11:13+01:00
 draft: false
 
-img: "jizzy.webp"
+image: "jizzy.webp"
 site_url: "https://redream.pl"
 code_url: "https://gitlab.com/mister_right/redream"
 type: projects

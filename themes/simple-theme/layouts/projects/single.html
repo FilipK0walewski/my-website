@@ -4,7 +4,7 @@
 
 {{ .Content }}
 
-{{ $image := resources.Get (printf "images/%s" .Params.img) }}
+{{ $image := resources.Get (printf "images/%s" .Params.image) }}
 {{ with $image }}
 <img id="about-image" src="{{ $image.RelPermalink }}" alt="">
 {{ end }}

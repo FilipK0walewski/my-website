@@ -1,6 +1,6 @@
 ---
 title: "About"
-img: jizzy.webp
+jizzy_image: jizzy.webp
 type: "about"
 ---
 # About me
