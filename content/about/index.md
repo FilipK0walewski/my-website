@@ -1,7 +1,6 @@
 ---
 title: "About"
-jizzy_image: jizzy.webp
-text_on_image: "It's me btw."
+img: jizzy.webp
 type: "about"
 ---
 # About me

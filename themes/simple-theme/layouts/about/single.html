@@ -2,9 +2,9 @@
 
 {{ .Content }}
 
-{{ $image := resources.Get (printf "images/%s" .Params.jizzy_image) }}
+{{ $image := resources.Get (printf "images/%s" .Params.img) }}
 {{ with $image }}
-<img id="about-image" src="{{ $image.RelPermalink }}" alt="">
+<img id="about-image" src="{{ $image.RelPermalink }}" alt="about image">
 {{ end }}
 
 {{ partial "footer.html" . }}
