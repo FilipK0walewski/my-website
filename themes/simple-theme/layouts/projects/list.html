@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<section id="projects-list">
+    {{ range.Data.Pages }}
+    <article class="project-snippet">
+        {{ $image := resources.Get (printf "images/%s" .Params.img) }}
+        {{ with $image }}
+        <img class="project-list-image" src="{{ $image.RelPermalink }}">
+        {{ end }}
+        <div style="display: flex; flex-direction: column;">
+            <h3>
+                <a style="color: var(--secondary);" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <p style="font-size: 1rem;">{{ substr .Summary 0 255 }}...</p>
+            <div>
+                <a class="text-0 underline" target="#" href={{ .Params.site_url }}>webiste</a>
+                <a class="text-0 underline" target="#" href={{ .Params.code_url }}>code</a>
+            </div>
+        </div>
+    </article>
+    {{ end }}
+</section>
+{{ partial "footer.html" . }}
