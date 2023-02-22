@@ -1,6 +1,6 @@
 ---
 title: Projekt testowy
-date: 2023-02-05T20:49:39.512Z
+date: 2023-01-05T20:49:39.512Z
 image: images/ls.jpeg
 type: projects
 site_url: https://archlinux.org/

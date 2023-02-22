@@ -354,6 +354,10 @@ svg {
     height: 32rem;
   } */
 
+  .project-list-image {
+    max-width: 100%;
+  }
+
   .project-list-image-div {
     position: static;
     display: flex;

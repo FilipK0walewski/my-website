@@ -1,10 +1,7 @@
 {{ partial "header.html" . }}
 
-{{ .Content }}
-
-{{ $image := resources.Get (printf "images/%s" .Params.img) }}
-{{ with $image }}
-<img id="about-image" src="{{ $image.RelPermalink }}" alt="about image">
-{{ end }}
+<main style="padding-bottom: 24rem;">
+    {{ .Content }}
+</main>
 
 {{ partial "footer.html" . }}
