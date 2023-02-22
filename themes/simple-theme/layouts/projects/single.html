@@ -4,9 +4,9 @@
 
 {{ .Content }}
 
-{{ $image := resources.Get (printf "images/%s" .Params.image) }}
+{{ $image := resources.Get (printf "%s" .Params.image) }}
 {{ with $image }}
-<img id="about-image" src="{{ $image.RelPermalink }}" alt="">
+<img style="width: 100%;" src="{{ $image.RelPermalink }}">
 {{ end }}
 
 <p>code url: <a href={{.Param "site_url" }}>{{.Param "site_url"}}</a></p>
