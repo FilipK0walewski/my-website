@@ -1,10 +1,11 @@
 ---
 title: Projekt testowy
 date: 2023-01-05T20:49:39.512Z
-image: images/ls.jpeg
+image: images/robert.jpeg
 type: projects
 site_url: https://archlinux.org/
 code_url: https://archlinux.org/
+draft: false
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consequat leo. Sed efficitur dictum mattis. Fusce risus nisl, vulputate viverra ex nec, congue gravida ipsum. Phasellus convallis nunc at nibh rhoncus fringilla. Donec varius cursus diam ut commodo. Nunc eget arcu purus. Etiam semper fermentum urna, id consequat ligula semper eget. Aliquam risus dui, faucibus et porta eget, facilisis ac libero.
 
