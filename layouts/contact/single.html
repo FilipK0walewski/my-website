@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<form id="contact-form" method="POST" action="/">
+    <div class="top-div">
+        <div class="contact-div">
+            <input id="contact-name" class="contact-input" name="name" type="text" placeholder="d" required>
+            <label class="contact-label" for="contact-name">{{ .Params.name_label }}</label>
+        </div>
+        <div class="contact-div">
+            <input id="contact-email" class="contact-input" name="email" type="email" placeholder="d" required>
+            <label class="contact-label" for="contact-email">{{ .Params.email_label }}</label>
+        </div>
+    </div>
+
+    <div class="contact-div">
+        <textarea id="contact-message" class="contact-input" name="message" placeholder="d" required></textarea>
+        <label class="contact-label contact-message-label" for="contact-message">{{ .Params.msg_label }}</label>
+    </div>
+    <button id="contact-submit-button" type="submit">{{ .Params.btn_text }}</button>
+</form>
+
+{{ partial "footer.html" . }}

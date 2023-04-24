@@ -1,0 +1,112 @@
+input:focus,
+textarea:focus {
+  direction: none;
+  outline: none;
+}
+
+#contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+#contact-form>*+* {
+  margin-top: 1rem;
+}
+
+.top-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-div>*+* {
+  margin-top: 1rem;
+}
+
+.contact-div {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.contact-input {
+  border: var(--color-0) 2px solid;
+  background-color: var(--color-3);
+  padding-left: .75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.contact-input:focus {
+  border-color: var(--color-2);
+}
+
+.contact-label {
+  font-size: .85rem;
+  background-color: var(--color-3);
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  transition: .15s;
+}
+
+.contact-label:hover {
+  cursor: text;
+}
+
+.contact-message-label {
+  top: 1.25rem;
+}
+
+.contact-input:focus~.contact-label {
+  top: 0;
+  left: .5rem;
+  padding: 0 .25rem;
+}
+
+.contact-input:not(:placeholder-shown)~.contact-label {
+  top: 0;
+  left: .5rem;
+  padding: 0 .25rem !important;
+}
+
+.contact-input::placeholder {
+  opacity: 0;
+  display: none;
+}
+
+#contact-message {
+  height: 15rem;
+  resize: none;
+}
+
+#contact-submit-button {
+  border: none;
+  background-color: var(--color-2);
+  width: min-content;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  color: var(--color-4);
+  transition: all .25s;
+}
+
+#contact-submit-button:hover,
+#contact-submit-button:focus {
+  transform: scale(1.05);
+  outline: none;
+}
+
+@media (width >=768px) {
+  .top-div {
+    flex-direction: row;
+  }
+
+  .top-div>*+* {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+}

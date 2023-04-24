@@ -3,6 +3,5 @@ title: "About"
 jizzy_image: jizzy.webp
 type: "about"
 ---
-# About me
-
-My name is Filip, this is my webiste, more soon.
+# O Mnie
+To moja stronka, więcej wkótce.

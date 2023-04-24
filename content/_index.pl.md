@@ -1,0 +1,5 @@
+---
+title: "Dom"
+---
+# No hejka.
+Witaj na mojej stronie! Nazywam się Filip i jestem doświadczonym deweloperem webowym. Specjalizuję się w projektowaniu i tworzeniu nowoczesnych i responsywnych stron internetowych oraz aplikacji internetowych. Od kilku lat pracuję w branży IT, a moja pasja do programowania i projektowania stron internetowych ciągle rośnie. Dzięki mojej wiedzy i doświadczeniu jestem w stanie tworzyć strony internetowe, które są nie tylko piękne, ale także funkcjonalne i intuicyjne w obsłudze. Jeśli szukasz profesjonalnego dewelopera webowego, który jest w stanie zrealizować Twoją wizję, to jestem właśnie tą osobą. Zapraszam do zapoznania się z moim portfolio, gdzie znajdziesz przykłady moich prac oraz opinie moich zadowolonych klientów. Jeśli jesteś zainteresowany współpracą lub masz jakieś pytania, nie wahaj się ze mną skontaktować. Z przyjemnością odpowiem na Twoje pytania i przedstawię Ci swoje propozycje.
