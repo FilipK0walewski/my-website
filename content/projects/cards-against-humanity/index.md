@@ -1,7 +1,0 @@
----
-title: Cards Ahainst Humanity Online
-type: projects
-site_url: https://cards.filipkowalewski.xyz
-code_url: https://gitlab.com/mister_right/cah-online
----
-React, FastAPI, node, socket.io

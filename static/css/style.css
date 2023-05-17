@@ -204,20 +204,11 @@ svg {
 #projects-list {
   list-style-type: disc;
   list-style-position: outside;
-}
-
-.project-snippet {
-  padding: .5rem 1rem;
+  margin: 0 !important;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
 }
 
-.project-snippet > *+* {
-  margin-top: 0;
-}
-
-.urls a {
+.project-list-a {
   text-decoration: underline;
 }
 
@@ -227,9 +218,12 @@ svg {
 
 .project-list-heading {
   color: var(--color-1);
-  font-size: 1.25rem;
+  font-size: 1.05rem;
 }
 
+#projects-list > *+* {
+  margin-top: .5rem;
+}
 
 ::-webkit-scrollbar {
   width: .51em;

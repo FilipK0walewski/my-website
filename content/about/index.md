@@ -1,8 +1,6 @@
 ---
 title: "About"
-jizzy_image: jizzy.webp
 type: "about"
 ---
 # About me
-
-My name is Filip, this is my webiste, more soon.
+This is my webiste, more soon.

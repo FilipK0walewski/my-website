@@ -3,13 +3,22 @@
 <h1>{{ .Title }}</h1>
 
 {{ .Content }}
+<ul id="projects-list">
+    {{ range .Params.projects }}
+    <li>
+        <span>{{ .name }}</span>
+        <div class="urls">
+            <a class="project-list-a" target="#" href={{ .website }}>webiste</a>
+            <a class="project-list-a" target="#" href={{ .code }}>code</a>
+        </div>
+    </li>
+    {{ end }}
+</ul>
 
-{{ $image := resources.Get (printf "%s" .Params.image) }}
-{{ with $image }}
-<img style="width: 100%;" src="{{ $image.RelPermalink }}">
+{{ if (eq (trim .Language " ") "en") }}
+<p>More on my <a class="project-list-a" target="#" href="{{ .Params.github }}">github</a>.</p>
+{{ else if (eq (trim .Language " ") "pl") }}
+<p>więcej na <a class="project-list-a" target="#" href="{{ .Params.github }}">githubie</a>.</p>
 {{ end }}
-
-<p>code url: <a href={{.Param "site_url" }}>{{.Param "site_url"}}</a></p>
-<p>site url: <a href={{.Param "code_url" }}>{{.Param "code_url"}}</a></p>
 
 {{ partial "footer.html" . }}
