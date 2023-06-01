@@ -1,9 +1,12 @@
 ---
-title: Moje projekty
+title: Projekty
 type: projects
 github: https://github.com/FilipK0walewski
 gitlab: https://gitlab.com/mister_right
 projects:
+  - name: kółko i krzyżyk
+    website: https://tictactoe.filipkowalewski.xyz
+    code: https://github.com/FilipK0walewski/tic-tac-toe
   - name: translator
     website: https://translator.filipkowalewski.xyz
     code: https://github.com/FilipK0walewski/simple-translator
