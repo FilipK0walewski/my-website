@@ -3,9 +3,7 @@ title: "Home"
 ---
 # Welcome
 
-My name is Filip Kowalewski
-
-I was born on January 26, 1997
+My name is Filip
 
 I am fullstack developer
 

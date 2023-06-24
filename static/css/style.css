@@ -141,8 +141,6 @@ svg {
 
 #hamburger-checkbox:checked~header .main-menu {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center; */
 }
 
 #hamburger-checkbox:checked~header .hamburger-label {
@@ -199,6 +197,10 @@ svg {
     padding-left: 1rem;
   }
 
+}
+
+li strong {
+  font-size: 1.25rem;
 }
 
 #projects-list {

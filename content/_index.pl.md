@@ -3,9 +3,7 @@ title: "Dom"
 ---
 # Witajcie
 
-Nazywam się Filip Kowalewski
-
-Urodziłem się 26 stycznia 1997 roku
+Nazywam się Filip
 
 Jestem fulstack developerem
 

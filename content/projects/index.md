@@ -1,26 +1,28 @@
 ---
 title: Projects
-type: projects
-github: https://github.com/FilipK0walewski
-gitlab: https://gitlab.com/mister_right
-projects:
-  - name: tic tac toe
-    website: https://tictactoe.filipkowalewski.xyz
-    code: https://github.com/FilipK0walewski/tic-tac-toe
-  - name: translator
-    website: https://translator.filipkowalewski.xyz
-    code: https://github.com/FilipK0walewski/simple-translator
-  - name: youtube frontend
-    website: https://yt.filipkowalewski.xyz
-    code: https://github.com/FilipK0walewski/yt-frontend
-  - name: game "wehikuł czasu"
-    website: https://wehikulczasu.filipkowalewski.xyz
-    code: https://github.com/FilipK0walewski/wehikulczasu
-  - name: cards against humanity online
-    website: https://cards.filipkowalewski.xyz
-    code: https://gitlab.com/mister_right/cah-online
-  - name: redream.pl
-    website: https://redream.pl
-    code: https://gitlab.com/mister_right/redream
 ---
-These are deployed projects:
+All project are available on [github](https://github.com/FilipK0walewski).
+
+- **cards agains humanity**
+
+  [website](https://cards.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/cards-against-humanity-online)
+
+- **translator**
+
+  [website](https://translator.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/simple-translator)
+
+- **tic tac toe**
+
+  Tic tac toe game, can play vs ai, used minimax alghoritm.
+
+  [website](https://tictactoe.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/tic-tac-toe)
+
+- **youtube frontend**
+
+  [website](https://yt.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/tic-tac-toe)
+
+- **redream.pl**
+
+  Vue 3
+
+  [website](https://redream.pl) [github](https://github.com/FilipK0walewski)
