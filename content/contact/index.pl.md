@@ -1,7 +1,7 @@
 ---
 title: Contact
 type: contact
-name_label: Imię
+subject_label: Temat
 email_label: Email
 msg_label: Wiadomość
 btn_text: wyślij

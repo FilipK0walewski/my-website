@@ -1,28 +1,51 @@
 ---
 title: Projects
 ---
+
 All project are available on [github](https://github.com/FilipK0walewski).
 
-- **cards agains humanity**
+- **cards agains sanity**
 
-  [website](https://cards.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/cards-against-humanity-online)
+  Game base on [cards against humanity](https://www.cardsagainsthumanity.com).
+
+  Features:
+  - online gameplay
+  - user registration
+  - customization options
+  - ability to create own decks and cards
+
+  Made with:
+  - React
+  - FastAPI
+  - postgresql
+  - socket.io
+
+  [website](https://cards.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/cards-against-humanity-online)
+
 
 - **translator**
 
-  [website](https://translator.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/simple-translator)
+  Frontend for [deepl translation api](https://www.deepl.com/en/docs-api). Made with Python, FastApi, [jinja](https://jinja.palletsprojects.com). Search results are cached in redis.
+
+  [website](https://translator.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/simple-translator)
 
 - **tic tac toe**
 
-  Tic tac toe game, can play vs ai, used minimax alghoritm.
+  Written in javascript, available 3 game modes: 
+  1. game vs ai, used minimax alghoritm
+  2. local game on one screen
+  3. online game, used websockets to communicate between a client and a server
 
-  [website](https://tictactoe.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/tic-tac-toe)
+  [website](https://tictactoe.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/tic-tac-toe)
 
-- **youtube frontend**
+- **youtube**
 
-  [website](https://yt.filipkowalewski.xyz) [github](https://github.com/FilipK0walewski/tic-tac-toe)
+  Simple and light youtube frontend made with Python, FastApi, [jinja](https://jinja.palletsprojects.com). Used [youtube api](https://developers.google.com/youtube/v3/docs) to retrieve resources.
+
+  [website](https://yt.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/yt-frontend)
 
 - **redream.pl**
 
-  Vue 3
+  Website made with Vue.
 
-  [website](https://redream.pl) [github](https://github.com/FilipK0walewski)
+  [website](https://redream.pl) [code](https://github.com/FilipK0walewski)

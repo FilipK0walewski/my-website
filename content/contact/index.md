@@ -1,7 +1,7 @@
 ---
 title: Contact
 type: contact
-name_label: Name
+subject_label: Subject
 email_label: Email
 msg_label: Message
 btn_text: send

@@ -2,15 +2,19 @@
 
 {{ .Content }}
 
-<form id="contact-form" method="POST" action="/">
+<p id="response-message"></p>
+
+<form id="contact-form" method="POST" action="/contact">
     <div class="top-div">
-        <div class="contact-div">
-            <input id="contact-name" class="contact-input" name="name" type="text" placeholder="d" required>
-            <label class="contact-label" for="contact-name">{{ .Params.name_label }}</label>
-        </div>
+
         <div class="contact-div">
             <input id="contact-email" class="contact-input" name="email" type="email" placeholder="d" required>
             <label class="contact-label" for="contact-email">{{ .Params.email_label }}</label>
+        </div>
+
+        <div class="contact-div">
+            <input id="contact-subject" class="contact-input" name="subject" type="text" placeholder="d" required>
+            <label class="contact-label" for="contact-subject">{{ .Params.subject_label }}</label>
         </div>
     </div>
 
@@ -20,5 +24,40 @@
     </div>
     <button id="contact-submit-button" type="submit">{{ .Params.btn_text }}</button>
 </form>
+
+<script>
+    const contactForm = document.getElementById('contact-form')
+    const responseMessage = document.getElementById('response-message')
+
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault()
+        const formData = {
+            email: document.getElementById('contact-email').value,
+            subject: document.getElementById('contact-subject').value,
+            message: document.getElementById('contact-message').value
+        }
+        console.log(formData)
+
+        const url = 'http://127.0.0.1:3000/contact'
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+            .then(response => response.json())
+            .then(data => {
+                responseMessage.innerText = data.message
+                responseMessage.style.color = '#16a34a'
+                contactForm.reset()
+            })
+            .catch(error => {
+                responseMessage.innerText = 'error :('
+                responseMessage.style.color = '#dc2626'
+            });
+    })
+</script>
 
 {{ partial "footer.html" . }}

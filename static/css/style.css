@@ -203,6 +203,18 @@ li strong {
   font-size: 1.25rem;
 }
 
+li {
+  line-height: 1.25rem;
+}
+
+li p {
+  line-height: 1.25rem;
+}
+
+li a {
+  text-decoration: underline;
+}
+
 #projects-list {
   list-style-type: disc;
   list-style-position: outside;
