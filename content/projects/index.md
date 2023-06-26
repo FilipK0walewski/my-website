@@ -4,7 +4,7 @@ title: Projects
 
 All project are available on [github](https://github.com/FilipK0walewski).
 
-- **cards agains sanity**
+- **cards agains online**
 
   Game base on [cards against humanity](https://www.cardsagainsthumanity.com).
 
@@ -18,9 +18,9 @@ All project are available on [github](https://github.com/FilipK0walewski).
   - React
   - FastAPI
   - postgresql
-  - socket.io
+  - socket.io(node.js)
 
-  [website](https://cards.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/cards-against-humanity-online)
+  [website](https://cards.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/cards-against-online)
 
 
 - **translator**
