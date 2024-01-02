@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+    image: my-website
+    container_name: my-website
+    ports:
+      - "80:80"

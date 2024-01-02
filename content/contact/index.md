@@ -7,4 +7,4 @@ msg_label: Message
 btn_text: send
 ---
 # Contact
-Ask me about something here or email me at filipkowalewski@hotmail.com
+Ask me about something here or email me at filipkowalewski@hotmail.com.

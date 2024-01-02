@@ -1,51 +1,23 @@
 ---
-title: Projects
+title: Projekty
 ---
 
-All project are available on [github](https://github.com/FilipK0walewski).
+Wszystkie projekty są dostępne ma moim [githubie](https://github.com/FilipK0walewski).
 
-- **cards agains sanity**
+- **Stronka do srkacania linków**
 
-  Game base on [cards against humanity](https://www.cardsagainsthumanity.com).
+  [skracacz.filipkowalewski.com](https://skracacz.filipkowalewski.com)
 
-  Features:
-  - online gameplay
-  - user registration
-  - profile customization options
-  - ability to create own decks and cards
+  [github](https://github.com/FilipK0walewski/skracacz-linkow)
 
-  Made with:
-  - React
-  - FastAPI
-  - postgresql
-  - socket.io
+- **Gra cards agains online**
 
-  [website](https://cards.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/cards-against-sanity-online)
+  [cards.filipkowalewski.com](https://cards.filipkowalewski.com)
+  
+  [github](https://github.com/FilipK0walewski/cards-against-online)
 
+- **Gra tic tac toe**
 
-- **translator**
-
-  Frontend for [deepl translation api](https://www.deepl.com/en/docs-api). Made with Python, FastApi, [jinja](https://jinja.palletsprojects.com). Search results are cached in redis.
-
-  [website](https://translator.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/simple-translator)
-
-- **tic tac toe**
-
-  Written in javascript, available 3 game modes: 
-  1. game vs ai, used minimax alghoritm
-  2. local game on one screen
-  3. online game, used websockets to communicate between a client and a server
-
-  [website](https://tictactoe.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/tic-tac-toe)
-
-- **youtube**
-
-  Simple and light youtube frontend made with Python, FastApi, [jinja](https://jinja.palletsprojects.com). Used [youtube api](https://developers.google.com/youtube/v3/docs) to retrieve resources.
-
-  [website](https://yt.filipkowalewski.xyz) [code](https://github.com/FilipK0walewski/yt-frontend)
-
-- **redream.pl**
-
-  Website made with Vue.
-
-  [website](https://redream.pl) [code](https://github.com/FilipK0walewski)
+  [tictactoe.filipkowalewski.com](https://tictactoe.filipkowalewski.com) 
+  
+  [github](https://github.com/FilipK0walewski/tic-tac-toe)

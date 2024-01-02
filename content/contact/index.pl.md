@@ -7,4 +7,4 @@ msg_label: Wiadomość
 btn_text: wyślij
 ---
 # Kontakt
-Napisz tu albo na filipkowalewski@hotmail.com
+Napisz tu albo na filipkowalewski@hotmail.com.

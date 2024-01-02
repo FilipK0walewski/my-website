@@ -2,8 +2,8 @@
 title: "Dom"
 ---
 
-# Nazywam się Filip Kowalewski
+# Nazywam się Filip Kowalewski.
 
-Jestem fulstack developerem
+Jestem fullstack developerem.
 
-Witam Was na mojej stronie internetowej
+Witam Was na mojej stronie internetowej.

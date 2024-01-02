@@ -1,8 +1,8 @@
 ---
 title: "Home"
 ---
-# My name is Filip Kowalewski
+# My name is Filip Kowalewski.
 
-I am fullstack developer
+I am fullstack developer.
 
-Welcome to my website
+Welcome to my website.
